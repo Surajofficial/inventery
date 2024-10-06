@@ -15,9 +15,10 @@ class UserSeeder extends Seeder
         // Insert some stuff
         DB::table('users')->insert(
             array(
-                'firstname' => 'William',
-                'lastname' => 'Castillo',
-                'username' => 'William Castillo',
+                'id' => 1,
+                'firstname' => 'Suraj',
+                'lastname' => 'Tiwari',
+                'username' => 'Suraj Tiwari',
                 'email' => 'admin@gmail.com',
                 'password' => bcrypt('admin@123'),
                 'avatar' => 'no_avatar.png',
